@@ -52,7 +52,7 @@ document.getElementById("contact-form").addEventListener("submit", async (e) => 
   };
 
   try {
-    const response = await fetch("https://g4c80sco8kkcgokggow48gc0.hosting.codeyourfuture.io", {
+    const response = await fetch("https://gai93003-portfolio-project-backend.hosting.codeyourfuture.io", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(formData),
