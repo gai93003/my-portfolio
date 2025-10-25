@@ -220,27 +220,29 @@ header .logo span {
 .tabs-container {
   max-width: 700px;
   margin: 40px auto;
-  background: #f9fafb;
+  background: transparent;
   border-radius: var(--radius);
+  color: var(--text-light);
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
   overflow: hidden;
 }
 
-.tab-buttons { display: flex; background: #0ea5e9; }
+.tab-buttons { display: flex; background: transparent; }
 
 .tab-btn {
   flex: 1;
   padding: 12px 0;
   border: none;
-  background: #0ea5e9;
+  background: #2a3d4716;
   color: white;
   font-weight: 600;
   cursor: pointer;
   transition: background 0.3s;
 }
 
-.tab-btn:hover,
-.tab-btn.active { background: #0284c7; }
+.tab-btn:hover {background-color: #334155;}
+
+.tab-btn.active { background: #0285c700; border-bottom: 2px solid #0ea5e9; }
 
 .tabs { padding: 20px; }
 
@@ -255,9 +257,9 @@ header .logo span {
 
 .tab-content ul { list-style: none; padding-left: 0; }
 
-.tab-content li { margin: 8px 0; color: #334155; }
+.tab-content li { margin: 8px 0; color: #c7d8f0; }
 
-.tab-content span { color: #0ea5e9; font-weight: bold; }
+.tab-content span { color: #66c2f0; font-weight: bold; }
 
 @keyframes fadeIn {
   from { opacity: 0; transform: translateY(5px); }
