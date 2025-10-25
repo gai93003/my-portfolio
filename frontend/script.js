@@ -60,10 +60,10 @@ document.getElementById("contact-form").addEventListener("submit", async (e) => 
 
     const result = await response.json();
     if (result.success) {
-      alert("Message saved successfully!");
+      alert("Message sent successfully!");
       e.target.reset();
     } else {
-      alert("Failed to save message.");
+      alert("Failed to send message.");
     }
   } catch (err) {
     console.error(err);
