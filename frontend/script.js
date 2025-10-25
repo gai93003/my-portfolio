@@ -52,7 +52,7 @@ document.getElementById("contact-form").addEventListener("submit", async (e) => 
   };
 
   try {
-    const response = await fetch("http://localhost:5000/contact", {
+    const response = await fetch("https://g4c80sco8kkcgokggow48gc0.hosting.codeyourfuture.io", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(formData),
