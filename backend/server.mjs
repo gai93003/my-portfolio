@@ -4,9 +4,9 @@ import path from "path";
 import cors from "cors";
 
 const app = express();
-app.use(cors({{
+app.use(cors({
   origin: "https://gai93003-portfolio-project-backend.hosting.codeyourfuture.io"
-}}));
+}));
 app.use(express.json());
 
 const DATA_FILE = path.resolve("./messages.json");
